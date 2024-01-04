@@ -23,26 +23,29 @@
         </section>
         <section class="bg-neutral-50 p-10">
             <h4 class="text-3xl font-semibold my-7 text-center">Income</h4>
-            <div class="w-8/12 mx-auto">
-                <label for="income-field" class="font-semibold text-xl "> Income :</label>
-                <input type="text" id="income-field" class="w-7/12 bg-gray-200 rounded-sm  p-2">
+            <div class="w-9/12  grid grid-cols-2 gap-3">
+                <p class="font-semibold ms-auto text-xl">Income : </p>
+                <input type="text" id="income-field" class=" bg-gray-200 rounded-sm  p-2">
             </div>
             <h4 class="text-3xl text-center font-semibold my-8">Expenses</h4>
-            <div class="w-8/12 mx-auto">
-                <label for="food-field" class="font-semibold  text-xl"> Food :</label>
-                <input type="text" id="food-field" class=" rounded-sm  w-7/12 p-2 bg-gray-200">
+            <div class="w-9/12  grid grid-cols-2 gap-3">
+
+                <p class="font-semibold ms-auto text-xl">Food : </p>
+                <input type="text" id="food-field" class=" rounded-sm   p-2 bg-gray-200">
             </div>
-            <div class="my-5 w-8/12 mx-auto">
-                <label for="rent-field" class="font-semibold text-xl"> Rent : </label>
-                <input type="text" id="rent-field" class="rounded-sm  p-2 w-7/12 bg-gray-200">
+            <div class="my-5 w-9/12  grid grid-cols-2 gap-3">
+                <p class="font-semibold ms-auto text-xl">Rent : </p>
+                <input type="text" id="rent-field" class="rounded-sm  p-2  bg-gray-200">
             </div>
-            <div class="w-8/12 mx-auto">
-                <label for="clothes-field" class="font-semibold text-xl"> Clothes :</label>
-                <input type="text" id="clothes-field" class="rounded-sm  bg-gray-200 p-2  w-7/12">
+            <div class="w-9/12  grid grid-cols-2 gap-3">
+                <p class="font-semibold ms-auto text-xl">Clothes : </p>
+                <input type="text" id="clothes-field" class="rounded-sm  bg-gray-200 p-2  ">
             </div>
-            <button class="text-white bg-sky-500 text-xl px-9 py-3 mx-auto justify-center flex mt-7 rounded-lg font-semibold" id="calculate-btn">Calculate</button>
-            <p class="text-2xl font-bold text-center my-5" >Total Expense : $<span id="total-expense">0</span> </p>
-            <p class="text-2xl font-bold text-center " >Balance : $<span id="balance">0</span></p>
+            <button
+                class="text-white bg-sky-500 text-xl px-9 py-3 mx-auto justify-center flex mt-7 rounded-lg font-semibold"
+                id="calculate-btn">Calculate</button>
+            <p class="text-2xl font-bold text-center my-5">Total Expense : $<span id="total-expense">0</span> </p>
+            <p class="text-2xl font-bold text-center ">Balance : $<span id="balance">0</span></p>
 
             <div class="flex items-center justify-center mt-5">
                 <div class="text-xl font-semibold ">

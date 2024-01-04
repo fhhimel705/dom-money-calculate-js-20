@@ -39,13 +39,14 @@ document.getElementById("save-btn").addEventListener("click", function () {
   const saving = document.getElementById("saving-amount");
   const remaining = document.getElementById("remaining-amount");
   const remainingAmount = balance - savingAmount;
-
-  if(savingAmount > balance){
-    alert('moye moye');
+  if (isNaN(saveValue)) {
+    alert("moye moye");
   }
-  else{
+   else if (savingAmount > balance) {
+    alert("moye moye");
+  }
+   else {
     saving.innerText = savingAmount;
     remaining.innerText = remainingAmount;
   }
-  
 });
